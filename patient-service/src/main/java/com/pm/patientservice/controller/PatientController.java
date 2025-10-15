@@ -1,6 +1,6 @@
 package com.pm.patientservice.controller;
 
-import com.pm.patientservice.Service.PatientService;
+import com.pm.patientservice.service.PatientService;
 import com.pm.patientservice.dto.PatientResponseDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
