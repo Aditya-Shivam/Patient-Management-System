@@ -10,7 +10,8 @@ COPY src ./src
 
 RUN mvn clean package
 
-FROM openjdk:17-jdk AS runner
+#FROM openjdk:17-jdk AS runner
+FROM eclipse-temurin:17-jdk AS runner
 
 WORKDIR /app
 
